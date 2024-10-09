@@ -11,7 +11,7 @@ readdirSync("./routes").map((file)=>app.use("/",require("./routes/"+file)))
 
 
 app.get("/", (req, res) => {
-  res.send("Carlo Supply");
+  res.send("ABE Supply");
 });
 
 
